@@ -29,8 +29,7 @@ node *create(int postL, int postR, int inL, int inR) {
         return NULL;
     }
 
-    node *root = new
-            node(); // new node as root
+    node *root = new node(); // new node as root
     root->data = post[postR]; // new node data field equals to post[postR]
     int k;
     // find the root value in [inL,inR]
